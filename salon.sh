@@ -21,7 +21,8 @@ MAIN_MENU() {
     do
       echo "$SERVICE_ID) $NAME"
     done
-
+  fi
+  
   read SERVICE_ID_SELECTED
   if [[ ! $SERVICE_ID_SELECTED =~ ^[0-9]+$ ]]
   then
